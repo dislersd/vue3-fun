@@ -1,13 +1,14 @@
 <template>
-    <HelloWorld msg="VUE 3 FTW" />
+  <HelloCounter msg="VUE 3 FTW" />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import HelloCounter from "./components/HelloCounter.vue";
+
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HelloCounter
   }
 };
 </script>
